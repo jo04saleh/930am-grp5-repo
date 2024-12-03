@@ -1,0 +1,10 @@
+.text-about{
+    position: absolute;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 10;
+    top:65%; left: 40%;
+}
