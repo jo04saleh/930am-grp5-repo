@@ -1,0 +1,54 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #733;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+}
+
+.btn {
+    display: block;
+    width: 150px;
+    margin: 10px auto;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.level1 {
+    background-color: #a50034;
+    color: white;
+}
+
+.level2 {
+    background-color: #d58a5f;
+    color: white;
+}
+
+.level3 {
+    background-color: #e7c6a3;
+    color: black;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
