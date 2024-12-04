@@ -1,0 +1,38 @@
+
+body{
+    background-image:url(css.png);
+    background-repeat: no-repeat; 
+    
+  background-position: center;
+
+}
+
+.ButtonForLevel1,.ButtonForLevel2,.ButtonForLevel3{
+background-color:peru;
+color:white;
+display:block;
+align-items: center;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+border-radius: 10px;
+border: none;
+font-size: 60px;
+margin: 40px;
+position: relative;
+top:70;
+left:40;
+}
+
+button:hover {
+    background-color:brown; 
+    transform: scale(1.1);
+
+}
+.ButtonForLevel1,.ButtonForLevel2,.ButtonForLevel3{
+    position: relative;
+    top:43%;
+    left:43%;
+    bottom: -400px;
+    
+}
