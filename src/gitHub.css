@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #1e3c72, #2a5298);
+    color: white;
+    text-align: center;}
+.container {padding: 20px;}
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: orange;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;}
+.github-logo {
+    margin: 30px auto;
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    transition: transform 0.3s;}
+.github-logo:hover {
+    transform: scale(1.1);}
+.content {
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: left;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);}
+.content h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;}
+.content ol {
+    list-style: decimal;
+    padding-left: 20px;}
+.content ul {
+    list-style: disc;
+    margin-left: 20px;}
+.content a {
+    color: #ffd700;
+    text-decoration: underline;}
+.content pre {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    color: #ffd700;}
