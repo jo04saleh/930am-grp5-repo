@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
+    background-color: #92b3c2;
     color: #333;
     display: flex;
     flex-direction: column;
@@ -114,7 +114,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #85D8F7;
+    background: #92b3c2;
 }
 
 .quiz-container {
@@ -256,4 +256,132 @@ h1, h2 {
     background-color: #ddd;
     color: #aaa;
     cursor: not-allowed;
+}
+
+
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+    body {
+        padding: 0 15px;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    header p {
+        font-size: 0.8rem;
+    }
+
+    .cards {
+        gap: 8px;
+    }
+
+    .card {
+        width: 85%;
+        max-width: 200px; 
+        padding: 15px; 
+    }
+
+    .card img {
+        height: 90px; 
+    }
+
+    .card h3 {
+        font-size: 1rem; 
+    }
+
+    .card p {
+        font-size: 0.8rem; 
+    }
+
+    .button {
+        font-size: 0.9rem; 
+        padding: 8px 15px; 
+    }
+
+    .quiz-container {
+        margin: 15px auto;
+        padding: 10px;
+    }
+
+    h1, h2 {
+        font-size: 1.4rem;
+    }
+
+    .answers button {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .next-button, .back-button {
+        font-size: 13px;
+        padding: 8px 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 0 10px;
+    }
+
+    header h1 {
+        font-size: 1.3rem;
+    }
+
+    header p {
+        font-size: 0.75rem;
+    }
+
+    .cards {
+        gap: 5px;
+    }
+
+    .card {
+        width: 90%;
+        max-width: 180px; 
+        padding: 10px; 
+    }
+
+    .card img {
+        height: 80px; 
+    }
+
+    .card h3 {
+        font-size: 0.9rem; 
+    }
+
+    .card p {
+        font-size: 0.7rem; 
+    }
+
+    .button {
+        font-size: 0.8rem; 
+        padding: 6px 12px; 
+    }
+
+    .quiz-container {
+        margin: 10px auto;
+        padding: 10px;
+    }
+
+    h1, h2 {
+        font-size: 1.2rem;
+    }
+
+    .answers button {
+        font-size: 12px;
+        padding: 6px;
+    }
+
+    .next-button, .back-button {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+
+    .buttons-container button {
+        font-size: 12px;
+        padding: 5px;
+    }
 }
