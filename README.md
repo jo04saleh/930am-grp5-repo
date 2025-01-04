@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+Project Name :
+ # HSJ: Learn Web Development Basics
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Description
+HSJ is a simple and interactive web application designed to help users learn the basics of **HTML**, **CSS**, and **JavaScript**. The home page includes buttons for each of these technologies, and clicking on any button will take the user to a page dedicated to teaching that specific language, complete with tutorials and examples.
 
-## Available Scripts
+This project aims to simplify the learning process for beginners by providing a clean, responsive interface and practical examples for each language.
 
-In the project directory, you can run:
 
-### `npm start`
+ ### Sitemap
+1. Home Page:  
+   - Contains three buttons: **HTML**, **CSS**, and **JavaScript** and Contains Login Button.
+   - Each button redirects to a page with educational content about the selected language.
+   
+2. HTML Page:  
+   - Explains the basics of HTML.  
+   - Includes examples of tags and their usage.
+   
+3. CSS Page:  
+   - Provides an introduction to CSS.  
+   - Demonstrates styling techniques with examples.
+   
+4. JavaScript Page:  
+   - Covers JavaScript basics.  
+   - Offers examples of dynamic interactions.
+     
+5.Login Form
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Note : in this branch used login form only 
+   
+##  Features
+- Interactive Navigation**: Buttons on the home page take users directly to the desired learning section.
+- Beginner-Friendly Content**: Each page contains simple explanations and practical examples.
+- Responsive Design**: Works on all devices, including mobile, tablet, and desktop.
+- Clear Layout**: Easy-to-read content with a consistent design.
+- Dynamic Elements**: JavaScript adds interactivity to enhance the learning experience.
+- 
+  ## How to Set Up and Run the Project
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Clone the Repository**:
+  click  git bash in terminal then
+    
+   git clone https://github.com/Web1-Teams/930am-grp5-repo.git
+   
+2. **Navigate to the Project Directory**:
+   cd 930am-grp5-repo
+   
+3.**Install Dependencies**:
 
-### `npm test`
+  npm install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. **Run the Project**:
 
-### `npm run build`
+   npm start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Watch the video demo below:
+[Watch the video on Google Drive](https://drive.google.com/file/d/1xMs3ZcwCKgAq-s1H1qh5aRJgymvUm0rS/view?usp=sharing)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Figma and Trello were not used for this project. Instead, GitHub was used for task management.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+-Here is a screenshot showing how the tasks were organized:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![GitHub Task Management](https://drive.google.com/uc?id=1mqmvcMzbKFGHzH5bOq3E8lQsoBiDYXSx)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   
+   
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  
