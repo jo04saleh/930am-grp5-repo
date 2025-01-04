@@ -25,6 +25,7 @@ This project aims to simplify the learning process for beginners by providing a 
    - Offers examples of dynamic interactions.
      
 5.Login Form
+
 6.Sidebar
 
 ## Note : in this branch used login form only 
