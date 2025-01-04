@@ -55,14 +55,14 @@ This project aims to simplify the learning process for beginners by providing a 
 
 
 ## Watch the video demo below:
-[Watch the video on Google Drive](https://drive.google.com/file/d/1xMs3ZcwCKgAq-s1H1qh5aRJgymvUm0rS/view?usp=sharing)
+[Watch the video on Google Drive](https://drive.google.com/file/d/1qDQD8Fk1Y5Xm5AMsaGJi4OUVf58aWrxZ/view?usp=sharing)
 
 
 ## Figma and Trello were not used for this project. Instead, GitHub was used for task management.
 
 -Here is a screenshot showing how the tasks were organized:
 
-![GitHub Task Management](https://drive.google.com/uc?id=1mqmvcMzbKFGHzH5bOq3E8lQsoBiDYXSx)
+![GitHub Task Management](https://drive.google.com/file/d/1qDQD8Fk1Y5Xm5AMsaGJi4OUVf58aWrxZ/view?usp=sharing)
 
 
 
