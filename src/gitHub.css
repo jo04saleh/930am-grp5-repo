@@ -52,3 +52,79 @@ body {
     border-radius: 5px;
     overflow-x: auto;
     color: #ffd700;}
+/* ميديا مرت من هنا */
+@media (max-width: 1200px) {
+  .menu {
+    gap: 1rem;
+  }
+
+  .menu a {
+    font-size: 18px;
+  }
+
+  .card {
+    width: 200px;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .menu {
+    position: static;
+    transform: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  .section {
+    font-size: 2rem;
+    height: auto;
+    padding: 1rem 0;
+  }
+
+  .buttons {
+    gap: 10px;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    padding: 15px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    height: 60px;
+    width: 60px;
+  }
+
+  .menu a {
+    font-size: 16px;
+    padding: 5px 10px;
+  }
+
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero p {
+    font-size: 0.875rem;
+  }
+
+  .card {
+    width: 180px;
+  }
+}
